@@ -11,19 +11,9 @@
   </head>
 
   <body>
-  <div class="ui small inverted menu">
     <div class="ui container">
-      <a class="item">
-        Home
-      </a>
-      <a class="item">
-        Messages
-      </a>
-      <a class="item">
-        Friends
-      </a>
+      <%= render 'layouts/navigation' %>
     </div>
-  </div>
     <div class="ui container">
       <%= yield %>
     </div>
