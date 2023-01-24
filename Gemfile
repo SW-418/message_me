@@ -50,6 +50,8 @@ gem "bootsnap", require: false
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 
+gem 'hirb', '~> 0.7.3'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
