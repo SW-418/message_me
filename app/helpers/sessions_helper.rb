@@ -1,7 +1,7 @@
-module SessionsHelper
-    def index
-    end
+# frozen_string_literal: true
 
-    def login
-    end
+module SessionsHelper
+  def index; end
+
+  def login; end
 end
