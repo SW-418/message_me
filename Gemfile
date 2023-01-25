@@ -58,6 +58,7 @@ gem 'rspec'
 gem 'rspec-rails'
 gem 'rspec-support'
 
+gem 'pg', '~> 1.4', '>= 1.4.5'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
