@@ -3,3 +3,11 @@
 //= require jquery_ujs
 import "@hotwired/turbo-rails"
 import "controllers"
+
+$('.message .close')
+  .on('click', function() {
+    $(this)
+      .closest('.message')
+      .transition('fade')
+    ;
+  });
