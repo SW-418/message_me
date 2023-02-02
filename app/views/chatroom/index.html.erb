@@ -15,14 +15,14 @@
                     </div>
                 </div>
                 <div class="extra content">
-                    <form class="ui reply form">
+                    <%= form_with url: message_path, method: :post, data: { turbo: false } do |form| %>
                         <div class="field">
                             <div class="ui fluid icon input">
-                                <input type="text" placeholder="Search...">
-                                <i class="bordered inverted orange edit icon"></i>
+                                <%= form.text_field :message, placeholder: 'Type a message...' %>
+                                    <%= form.button "Send" , class: 'bordered inverted orange edit icon' %>
                             </div>
                         </div>
-                    </form>
+                    <% end %>
                 </div>
             </div>
         </div>
