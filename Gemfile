@@ -7,12 +7,12 @@ ruby '3.0.0'
 
 gem 'semantic-ui-sass', '~> 2.4'
 
-gem 'jquery-rails', '~> 4.5', '>= 4.5.1'
+gem 'jquery-rails', '~> 4.6', '>= 4.6.0'
 
 gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.4', '>= 7.0.4.1'
+gem 'rails', '~> 7.1.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -24,13 +24,13 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 5.0'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem 'importmap-rails'
+gem 'importmap-rails', '>= 1.1.6'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails'
+gem 'turbo-rails', '>= 1.3.3'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem 'stimulus-rails'
+gem 'stimulus-rails', '>= 1.2.2'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
@@ -55,7 +55,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'hirb', '~> 0.7.3'
 
 gem 'rspec'
-gem 'rspec-rails'
+gem 'rspec-rails', '>= 4.0.0'
 gem 'rspec-support'
 
 gem 'pg', '~> 1.4', '>= 1.4.5'
@@ -75,7 +75,7 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
