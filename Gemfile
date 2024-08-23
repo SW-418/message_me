@@ -60,8 +60,8 @@ gem 'rspec-support'
 
 gem 'pg', '~> 1.4', '>= 1.4.5'
 
-gem 'rubocop', '~> 1.44'
-gem 'rubocop-rake', '~> 0.5.1'
+gem 'rubocop', '~> 1.44', '>= 1.44.1'
+gem 'rubocop-rake', '~> 0.6.0'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -87,6 +87,6 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
-  gem 'selenium-webdriver'
-  gem 'webdrivers'
+  gem 'selenium-webdriver', '>= 4.8.1'
+  gem 'webdrivers', '>= 5.3.0'
 end
