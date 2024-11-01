@@ -60,7 +60,7 @@ gem 'rspec-support'
 
 gem 'pg', '~> 1.4', '>= 1.4.5'
 
-gem 'rubocop', '~> 1.44'
+gem 'rubocop', '~> 1.66', '>= 1.66.0'
 gem 'rubocop-rake', '~> 0.5.1'
 # Use Sass to process CSS
 # gem "sassc-rails"
